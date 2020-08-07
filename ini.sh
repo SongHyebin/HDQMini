@@ -7,7 +7,7 @@ ssh -L 8000:localhost:8000 -L 8080:localhost:5000 hysong@lxplus7.cern.ch
 mkdir -p /tmp/hysong/hdqm
 cd /tmp/hysong/hdqm/
 
-git clone -b GG --single-branch
+git clone -b GG --single-branch https://github.com/SongHyebin/CentralHDQM.git
 cd CentralHDQM/
 
 # Get an SSO to access OMS and RR APIs. This has to be done before cmsenv script
