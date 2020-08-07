@@ -1,8 +1,4 @@
 #!/bin/bash
-# Enter bash
-bash
-# You have to change the username. From this point, all instruction can be copy pasted without modifications.
-ssh -L 8000:localhost:8000 -L 8080:localhost:5000 hysong@lxplus7.cern.ch
 /bin/bash
 mkdir -p /tmp/hysong/hdqm
 cd /tmp/hysong/hdqm/
